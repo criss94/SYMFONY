@@ -1,0 +1,42 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Categorias
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          categorias
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: 
+        _list: { label: volver}
+        
+      fields:  
+        cat_nombre:
+         label: "Nombre"
+         attributes:
+            class: form-control
+        cat_posicion: 
+          label: "Posición"
+          attributes:
+            class: form-control
+        sf_guard_group_list: 
+          label: "Grupos"
+          attributes:
+            class: form-control
+        
+      list:   
+        title: Categorias
+        max_per_page: 5
+        
+      filter: 
+        display: [cat_nombre, sf_guard_group_list]
+      form: ~
+      edit:
+        title: "Edicion de %%cat_nombre%%"
+      new:
+        title: Alta de una nueva Categoria

@@ -1,0 +1,55 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Botones
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          botones
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: 
+        _list: { label: volver al listado }
+        
+      fields:  
+        btn_nombre:
+         label: "Nombre"
+         attributes:
+            class: form-control
+        btn_link: 
+          label: "URL"
+          attributes:
+            class: form-control
+        btn_imagen: 
+          label: "Icono"
+          attributes:
+            class: form-control
+        btn_bg: 
+          label: "Color de Fondo del Icono"
+          attributes:
+            class: form-control
+        btn_activo:
+          label: "Activo"
+          attributes:
+            class: form-control
+        btn_cat_id: 
+          label: "Categorias"
+          attributes:
+            class: form-control
+        
+      list:   
+        title: Botones
+        max_per_page: 5
+        
+      filter: 
+        display: [btn_nombre, btn_activo, btn_cat_id]
+      form: 
+        display: [btn_nombre, btn_link, btn_imagen, btn_bg, btn_activo, btn_cat_id]
+      edit:
+        title: "Edicion de %%btn_nombre%%"
+      new:
+        title: Alta de un nuevo Boton

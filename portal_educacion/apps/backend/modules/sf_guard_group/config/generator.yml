@@ -1,0 +1,58 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           sfGuardGroup
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          sf_guard_group
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: 
+        _list: { label: volver }
+        
+      fields:  
+        name:
+         label: "Nombre"
+         attributes:
+            class: form-control
+        description: 
+          label: "Descripción"
+          attributes:
+            class: form-control
+        created_at: 
+          label: "Creado el"
+          attributes:
+            class: form-control
+        updated_at: 
+          label: "Actualizado el"
+          attributes:
+            class: form-control
+        users_list: 
+          label: "Usuarios"
+          attributes:
+            class: form-control
+        permissions_list:
+          label: "Permisos"
+          attributes:
+            class: form-control
+        categorias_list: 
+          label: "Categorias"
+          attributes:
+            class: form-control
+        
+      list:   
+        title: Grupos
+        max_per_page: 5
+        
+      filter: 
+        display: [name, users_list, permissions_list, categorias_list]
+      form: ~
+      edit:
+        title: "Edicion de %%name%%"
+      new:
+        title: Alta de un nuevo Grupo

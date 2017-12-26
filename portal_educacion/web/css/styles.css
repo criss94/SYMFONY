@@ -1,0 +1,197 @@
+/* agrego estilos extra al portal*/
+
+/*estilos para el error del login*/
+
+ul{
+    list-style: none
+}
+
+.error_list{
+    color: darkred;
+    line-height: 18px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+/* le doy un alto fijo al header por que al usar height: 100vh para que el login me ocupe toda la pantalla se me achicaba el tamaño del header*/
+.header-nav{
+    min-height: 83px;
+}
+
+#login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_login{
+    flex: 1;
+    height: 100%;
+}
+
+.jumbotron-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+}
+
+/* covierto las primeras letras en mayusculas */
+.text-capitalize{
+    text-transform: capitalize;
+}
+
+/* stilos para los iconos haciendo de botones edit y delete*/
+.link_actions{
+    font-size: 2em;
+}
+
+/* colores de los iconos de eliminar */
+.icon_new{
+    color: #18b596
+}
+
+.icon_edit{
+    color: #00b3e3;
+}
+
+.icon_delete{
+    color: #CC0000
+}
+
+.border{
+    border: 1px solid;
+}
+
+/* clase para centrar */
+.col-center{
+    float: none;
+    margin: 0 auto;
+}
+
+.text-white{
+    color: #fff;
+    font-weight: bold
+}
+
+/* tamaño de letra de 13px para mostrar los errores en los formularios*/
+.text-size-13{
+    font-size: 13.5px;
+}
+
+.text-bold{
+    font-weight: bold;
+    color: #111;
+}
+
+.text-blue{
+    color: #215093
+}
+
+/* tanaño del contenedor de las iamgenes del form de agregar un nuevo boton*/
+.box-images{
+    width: 150px;
+}
+/* sobreescribo esta clase para darle u color mas oscuro al texto de error de las validaciones */
+.text-danger{
+    color: darkred
+}
+
+/* estilos para los iconos del slidshow, prev y next */
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus{
+    background: #dfdfdf;
+    transition: ease .3s all;
+}
+
+.slick-arrow{
+    background: #dfdfdf;
+    transition: ease .3s all;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: bolder;
+    width: 30px;
+    height: 30px;
+}
+
+.slick-arrow:hover{
+    background: #333;
+}
+
+/* personalizacion del boton de login con google */
+.box-login-google{
+    display: block;
+    margin-top: 15px;
+    width: 100%;
+    height: 44px;
+    border: 1px solid darkgrey;
+    position: relative;
+    border-radius: 4px;
+    font-weight: bold;
+    line-height: 44px;
+    transition: ease .4s all;
+}
+
+.box-login-google .img-login-google{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.box-login-google:hover{
+    color: darkgrey;
+    -moz-box-shadow: 0 0 7px #888;
+    -webkit-box-shadow: 0 0 7px#888;
+    box-shadow: 0 0 7px #888;
+}
+.box-login-google:link{
+    text-decoration: none;
+}
+/* fin personalizacion de google*/
+
+/* cambio su color cuando lo presionan a negro (el dropdown) */
+.collapse .navbar-nav .dropdown .dropdown-menu > li > a:active{
+    color: #333;
+}
+
+.boton_favorito{
+    display: none;
+}
+
+.estrella_favoritos{
+    font-size: 25px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+.estrella_favoritos:hover{
+    color: orange;
+}
+/* si el input esta checkeado le cambiamos el color a la estrella */
+.boton_favorito:checked + .estrella_favoritos{
+    color: orange;
+}
+
+/* @media querys */
+@media screen and (min-width: 0px) and (max-width: 767px){
+    .results_pagination{
+        text-align: center
+    }
+}
+    
+@media screen and (min-width: 0px) and (max-width: 1199px){
+    .center-block{
+        float: none;
+    }
+    .margintop100{
+        margin-top: 0
+    }
+    .container-fluid{
+        padding: 0
+    }
+}

@@ -1,0 +1,55 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Noticias
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          noticias
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: 
+        _list: { label: volver }
+        
+      fields:  
+        not_nombre:
+         label: "Nombre"
+         attributes:
+            class: form-control
+        not_link: 
+          label: "URL"
+          attributes:
+            class: form-control
+        not_imagen: 
+          label: "Imagen"
+          attributes:
+            class: img-responsive
+        not_activo:
+          label: "Activo"
+          attributes:
+            class: form-control
+        not_inicio_pub:
+          label: "Fecha de publicación"
+          attributes:
+            class: form-control
+        not_fin_pub:
+          label: "Vencimiento de la publicación"
+          attributes:
+            class: form-control
+        
+      list:   
+        title: Noticias
+        max_per_page: 5
+        
+      filter: 
+        display: [not_nombre, not_activo]
+      form: ~
+      edit:
+        title: "Edicion de %%not_nombre%%"
+      new:
+        title: Alta de una nueva Noticia
+

@@ -1,0 +1,42 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Servicios
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          servicios
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: 
+        _list: { label: volver}
+        
+      fields:  
+        ser_icono:
+          label: "Icono"
+          attributes:
+            class: form-control
+        ser_link: 
+          label: "URL"
+          attributes:
+            class: form-control
+        ser_nombre: 
+          label: "Nombre"
+          attributes:
+            class: form-control
+        
+      list:   
+        title: Servicios
+        max_per_page: 5
+        
+      filter: 
+        display: [ser_nombre]
+      form: ~
+      edit:
+        title: "Edicion de %%ser_nombre%%"
+      new:
+        title: Alta de un nuevo servicio

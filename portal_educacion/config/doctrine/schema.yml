@@ -1,0 +1,63 @@
+#tabla categorias
+Categorias:
+  columns:
+    cat_nombre: { type: string(255), notnull: true, unique: true }
+    cat_posicion: { type: integer, notnull: true }
+  relations:
+    Botones:
+      local: id
+      foreign: btn_cat_id
+      type: many
+    
+#tabla botones
+Botones:
+  columns:
+    btn_nombre: { type: string(255), notnull: true, unique: true }
+    btn_link: { type: string(255), notnull: true }
+    btn_imagen: { type: string(255), notnull: true }
+    btn_bg: { type: string(255), notnull: true, default: '#fdd306' }
+    btn_activo: { type: integer, notnull: true }
+    btn_cat_id: { type: integer, notnull: true }
+  relations:
+    Categorias: { onDelete: CASCADE, local: btn_cat_id, foreign: id, type: one, foreignType: many }
+    
+#roles categorias
+RolesCategorias:
+  columns:
+    rol_cat_id: { type: integer }
+    rol_group_id: { type: integer }
+  relations:
+    Categorias: { onDelete: CASCADE, local: rol_cat_id, foreign: id, foreignAlias: rol_cat_id }
+    sfGuardGroup: { onDelete: CASCADE, local: rol_group_id, foreign: id, foreignAlias: rol_group_id }
+
+#tabla noticias
+Noticias:
+  columns: 
+    not_nombre: { type: string(255), notnull: true, unique: true }
+    not_link: { type: string(255), notnull: true }
+    not_imagen: { type: string(255), notnull: true, default: 'sin-foto.jpg' }
+    not_activo: { type: integer, notnull: true }
+    #not_activo: { type: boolean, notnull: true, default: 1 }
+    not_inicio_pub: { type: timestamp, notnull: true }
+    not_fin_pub: { type: timestamp, notnull: true }
+
+#tabla servicios
+Servicios:
+  columns:
+    ser_icono: { type: string(255), notnull: true }
+    ser_link: { type: string(255), notnull: true }
+    ser_nombre: { type: string(255), notnull: true }
+    
+#tabla para activar el tipo de login (inicio de sesion)
+TipoDeLogin:
+  columns:
+    activo: { type: integer, notnull: true, default: 1 }
+    
+#tabla de agregar a favoritos
+BotonesFavoritos:
+  columns:
+    bf_user_id: { type: integer, notnull: true }
+    bf_btn_id: { type: integer, notnull: true }
+  relations:
+    sfGuardUser: { onDelete: CASCADE, local: bf_user_id, foreign: id, foreignAlias: sfGuardUsers }
+    Botones: { onDelete: CASCADE, local: bf_btn_id, foreign: id, foreignAlias: Favoritos }

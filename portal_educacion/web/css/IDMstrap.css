@@ -1,0 +1,877 @@
+/* line 5, _spaces.scss */
+.clearmargin {
+  margin: 0;
+}
+
+/* line 6, _spaces.scss */
+.clearpadding {
+  padding: 0;
+}
+
+/* line 7, _spaces.scss */
+.none {
+  display: none;
+}
+
+/* line 8, _spaces.scss */
+.divider {
+  border-top: 1px solid #DDD;
+  margin-bottom: 16px;
+  margin-top: 10px;
+}
+/* line 12, _spaces.scss */
+.divider.divider-alpha {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* line 17, _spaces.scss */
+.margin-center {
+  margin: 0 auto;
+}
+
+/* line 24, _spaces.scss */
+.margin5 {
+  margin: 5px;
+}
+
+/* line 25, _spaces.scss */
+.margin10 {
+  margin: 10px;
+}
+
+/* line 26, _spaces.scss */
+.margin20 {
+  margin: 20px 0;
+}
+
+/* line 28, _spaces.scss */
+.margintop0 {
+  margin-top: 0;
+}
+
+/* line 29, _spaces.scss */
+.margintop3 {
+  margin-top: 3px;
+}
+
+/* line 30, _spaces.scss */
+.margintop5 {
+  margin-top: 5px;
+}
+
+/* line 31, _spaces.scss */
+.margintop10 {
+  margin-top: 10px;
+}
+
+/* line 32, _spaces.scss */
+.margintop15 {
+  margin-top: 15px;
+}
+
+/* line 33, _spaces.scss */
+.margintop20 {
+  margin-top: 20px;
+}
+
+/* line 34, _spaces.scss */
+.margintop30 {
+  margin-top: 30px;
+}
+
+/* line 35, _spaces.scss */
+.margintop40 {
+  margin-top: 40px;
+}
+
+/* line 36, _spaces.scss */
+.margintop50 {
+  margin-top: 50px;
+}
+
+/* line 37, _spaces.scss */
+.margintop60 {
+  margin-top: 60px;
+}
+
+/* line 38, _spaces.scss */
+.margintop70 {
+  margin-top: 70px;
+}
+
+/* line 39, _spaces.scss */
+.margintop80 {
+  margin-top: 80px;
+}
+
+/* line 40, _spaces.scss */
+.margintop90 {
+  margin-top: 90px;
+}
+
+/* line 41, _spaces.scss */
+.margintop100 {
+  margin-top: 100px;
+}
+
+/* line 43, _spaces.scss */
+.margintop-5 {
+  margin-top: -5px;
+}
+
+/* line 44, _spaces.scss */
+.margintop-10 {
+  margin-top: -10px;
+}
+
+/* line 45, _spaces.scss */
+.margintop-20 {
+  margin-top: -20px;
+}
+
+/* line 46, _spaces.scss */
+.margintop-30 {
+  margin-top: -30px;
+}
+
+/* line 48, _spaces.scss */
+.marginbottom0 {
+  margin-bottom: 0;
+}
+
+/* line 49, _spaces.scss */
+.marginbottom3 {
+  margin-bottom: 3px;
+}
+
+/* line 50, _spaces.scss */
+.marginbottom5 {
+  margin-bottom: 5px;
+}
+
+/* line 51, _spaces.scss */
+.marginbottom10 {
+  margin-bottom: 10px;
+}
+
+/* line 52, _spaces.scss */
+.marginbottom15 {
+  margin-bottom: 15px;
+}
+
+/* line 53, _spaces.scss */
+.marginbottom20 {
+  margin-bottom: 20px;
+}
+
+/* line 54, _spaces.scss */
+.marginbottom30 {
+  margin-bottom: 30px;
+}
+
+/* line 55, _spaces.scss */
+.marginbottom40 {
+  margin-bottom: 40px;
+}
+
+/* line 56, _spaces.scss */
+.marginbottom50 {
+  margin-bottom: 50px;
+}
+
+/* line 57, _spaces.scss */
+.marginbottom60 {
+  margin-bottom: 60px;
+}
+
+/* line 58, _spaces.scss */
+.marginbottom70 {
+  margin-bottom: 70px;
+}
+
+/* line 59, _spaces.scss */
+.marginbottom80 {
+  margin-bottom: 80px;
+}
+
+/* line 60, _spaces.scss */
+.marginbottom90 {
+  margin-bottom: 90px;
+}
+
+/* line 61, _spaces.scss */
+.marginbottom100 {
+  margin-bottom: 100px;
+}
+
+/* line 63, _spaces.scss */
+.marginright5 {
+  margin-right: 5px;
+}
+
+/* line 64, _spaces.scss */
+.marginright10 {
+  margin-right: 10px;
+}
+
+/* line 65, _spaces.scss */
+.marginright20 {
+  margin-right: 20px;
+}
+
+/* line 66, _spaces.scss */
+.marginright30 {
+  margin-right: 30px;
+}
+
+/* line 67, _spaces.scss */
+.marginright40 {
+  margin-right: 40px;
+}
+
+/* line 68, _spaces.scss */
+.marginright50 {
+  margin-right: 50px;
+}
+
+/* line 69, _spaces.scss */
+.marginright60 {
+  margin-right: 60px;
+}
+
+/* line 70, _spaces.scss */
+.marginright70 {
+  margin-right: 70px;
+}
+
+/* line 71, _spaces.scss */
+.marginright80 {
+  margin-right: 80px;
+}
+
+/* line 72, _spaces.scss */
+.marginright90 {
+  margin-right: 90px;
+}
+
+/* line 73, _spaces.scss */
+.marginright100 {
+  margin-right: 100px;
+}
+
+/* line 75, _spaces.scss */
+.marginleft05 {
+  margin-left: 5px;
+}
+
+/* line 76, _spaces.scss */
+.marginleft10 {
+  margin-left: 10px;
+}
+
+/* line 77, _spaces.scss */
+.marginleft15 {
+  margin-left: 15px;
+}
+
+/* line 78, _spaces.scss */
+.marginleft20 {
+  margin-left: 20px;
+}
+
+/* line 79, _spaces.scss */
+.marginleft30 {
+  margin-left: 30px;
+}
+
+/* line 80, _spaces.scss */
+.marginleft40 {
+  margin-left: 40px;
+}
+
+/* line 81, _spaces.scss */
+.marginleft50 {
+  margin-left: 50px;
+}
+
+/* line 82, _spaces.scss */
+.marginleft60 {
+  margin-left: 60px;
+}
+
+/* line 83, _spaces.scss */
+.marginleft70 {
+  margin-left: 70px;
+}
+
+/* line 84, _spaces.scss */
+.marginleft80 {
+  margin-left: 80px;
+}
+
+/* line 85, _spaces.scss */
+.marginleft90 {
+  margin-left: 90px;
+}
+
+/* line 86, _spaces.scss */
+.marginleft100 {
+  margin-left: 100px;
+}
+
+/* line 90, _spaces.scss */
+.center-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* line 100, _spaces.scss */
+.center-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* line 111, _spaces.scss */
+.padding30 {
+  padding: 30px;
+}
+
+/* line 113, _spaces.scss */
+.paddingtop05 {
+  padding-top: 5px;
+}
+
+/* line 114, _spaces.scss */
+.paddingtop10 {
+  padding-top: 10px;
+}
+
+/* line 115, _spaces.scss */
+.paddingtop15 {
+  padding-top: 15px;
+}
+
+/* line 116, _spaces.scss */
+.paddingtop20 {
+  padding-top: 20px;
+}
+
+/* line 117, _spaces.scss */
+.paddingtop30 {
+  padding-top: 30px;
+}
+
+/* line 118, _spaces.scss */
+.paddingtop40 {
+  padding-top: 40px;
+}
+
+/* line 119, _spaces.scss */
+.paddingtop50 {
+  padding-top: 50px;
+}
+
+/* line 120, _spaces.scss */
+.paddingtop60 {
+  padding-top: 60px;
+}
+
+/* line 121, _spaces.scss */
+.paddingtop70 {
+  padding-top: 70px;
+}
+
+/* line 122, _spaces.scss */
+.paddingtop80 {
+  padding-top: 80px;
+}
+
+/* line 123, _spaces.scss */
+.paddingtop90 {
+  padding-top: 90px;
+}
+
+/* line 124, _spaces.scss */
+.paddingtop100 {
+  padding-top: 100px;
+}
+
+/* line 126, _spaces.scss */
+.paddingbottom0 {
+  padding-bottom: 0;
+}
+
+/* line 127, _spaces.scss */
+.paddingbottom05 {
+  padding-bottom: 5px;
+}
+
+/* line 128, _spaces.scss */
+.paddingbottom10 {
+  padding-bottom: 10px;
+}
+
+/* line 129, _spaces.scss */
+.paddingbottom15 {
+  padding-bottom: 15px;
+}
+
+/* line 130, _spaces.scss */
+.paddingbottom20 {
+  padding-bottom: 20px;
+}
+
+/* line 131, _spaces.scss */
+.paddingbottom30 {
+  padding-bottom: 30px;
+}
+
+/* line 132, _spaces.scss */
+.paddingbottom40 {
+  padding-bottom: 40px;
+}
+
+/* line 133, _spaces.scss */
+.paddingbottom50 {
+  padding-bottom: 50px;
+}
+
+/* line 134, _spaces.scss */
+.paddingbottom60 {
+  padding-bottom: 60px;
+}
+
+/* line 135, _spaces.scss */
+.paddingbottom70 {
+  padding-bottom: 70px;
+}
+
+/* line 136, _spaces.scss */
+.paddingbottom80 {
+  padding-bottom: 80px;
+}
+
+/* line 137, _spaces.scss */
+.paddingbottom90 {
+  padding-bottom: 90px;
+}
+
+/* line 138, _spaces.scss */
+.paddingbottom100 {
+  padding-bottom: 100px;
+}
+
+/* line 140, _spaces.scss */
+.paddingleft05 {
+  padding-left: 5px;
+}
+
+/* line 141, _spaces.scss */
+.paddingleft10 {
+  padding-left: 10px;
+}
+
+/* line 142, _spaces.scss */
+.paddingleft15 {
+  padding-left: 15px;
+}
+
+/* line 143, _spaces.scss */
+.paddingleft20 {
+  padding-left: 20px;
+}
+
+/* line 144, _spaces.scss */
+.paddingleft30 {
+  padding-left: 30px;
+}
+
+/* line 145, _spaces.scss */
+.paddingleft40 {
+  padding-left: 40px;
+}
+
+/* line 146, _spaces.scss */
+.paddingleft50 {
+  padding-left: 50px;
+}
+
+/* line 147, _spaces.scss */
+.paddingleft60 {
+  padding-left: 60px;
+}
+
+/* line 148, _spaces.scss */
+.paddingleft70 {
+  padding-left: 70px;
+}
+
+/* line 149, _spaces.scss */
+.paddingleft80 {
+  padding-left: 80px;
+}
+
+/* line 150, _spaces.scss */
+.paddingleft90 {
+  padding-left: 90px;
+}
+
+/* line 151, _spaces.scss */
+.paddingleft100 {
+  padding-left: 100px;
+}
+
+/* line 153, _spaces.scss */
+.paddingright05 {
+  padding-right: 5px;
+}
+
+/* line 154, _spaces.scss */
+.paddingright10 {
+  padding-right: 10px;
+}
+
+/* line 155, _spaces.scss */
+.paddingright15 {
+  padding-right: 15px;
+}
+
+/* line 156, _spaces.scss */
+.paddingright20 {
+  padding-right: 20px;
+}
+
+/* line 157, _spaces.scss */
+.paddingright30 {
+  padding-right: 30px;
+}
+
+/* line 158, _spaces.scss */
+.paddingright40 {
+  padding-right: 40px;
+}
+
+/* line 159, _spaces.scss */
+.paddingright50 {
+  padding-right: 50px;
+}
+
+/* line 160, _spaces.scss */
+.paddingright60 {
+  padding-right: 60px;
+}
+
+/* line 161, _spaces.scss */
+.paddingright70 {
+  padding-right: 70px;
+}
+
+/* line 162, _spaces.scss */
+.paddingright80 {
+  padding-right: 80px;
+}
+
+/* line 163, _spaces.scss */
+.paddingright90 {
+  padding-right: 90px;
+}
+
+/* line 164, _spaces.scss */
+.paddingright100 {
+  padding-right: 100px;
+}
+
+/* line 167, _spaces.scss */
+.padding05 {
+  padding: 5px;
+}
+
+/* line 168, _spaces.scss */
+.padding10 {
+  padding: 10px;
+}
+
+/* line 169, _spaces.scss */
+.padding12 {
+  padding: 12px;
+}
+
+/* line 170, _spaces.scss */
+.padding15 {
+  padding: 15px;
+}
+
+/* line 171, _spaces.scss */
+.padding20 {
+  padding: 20px;
+}
+
+/* line 172, _spaces.scss */
+.padding30 {
+  padding: 30px;
+}
+
+/* line 176, _spaces.scss */
+.relative {
+  position: relative;
+}
+
+/* line 180, _spaces.scss */
+.absolute {
+  position: absolute;
+}
+
+/* line 184, _spaces.scss */
+.fixed {
+  position: fixed;
+}
+
+/* line 188, _spaces.scss */
+.border0 {
+  border: 0;
+}
+
+/* line 189, _spaces.scss */
+.border-radius-0 {
+  border-radius: 0;
+}
+
+/* line 190, _spaces.scss */
+.va-middle {
+  vertical-align: middle;
+}
+
+/* line 191, _spaces.scss */
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* line 196, _spaces.scss */
+.o-hidden {
+  overflow: hidden;
+}
+
+/* line 1, _color.scss */
+.black {
+  color: #000;
+}
+
+/* line 2, _color.scss */
+.white {
+  color: #fff;
+}
+
+/* line 3, _color.scss */
+.gray {
+  color: #b6b6b6;
+}
+
+/* line 1, _IDMstrap.scss */
+a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 4, _IDMstrap.scss */
+a:visited, a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+/* line 10, _IDMstrap.scss */
+.page-contents {
+  background-color: #fff;
+  padding: 45px 0 75px;
+}
+
+/* line 16, _IDMstrap.scss */
+.jumbotron .jumbotron-overlay {
+  background: rgba(0, 0, 0, 0.4);
+}
+/* line 19, _IDMstrap.scss */
+.jumbotron .breadcrumb {
+  padding-top: 24px;
+}
+/* line 22, _IDMstrap.scss */
+.jumbotron .breadcrumb li a {
+  color: #fff !important;
+}
+/* line 26, _IDMstrap.scss */
+.jumbotron .breadcrumb .active {
+  color: #fff;
+}
+
+/* line 32, _IDMstrap.scss */
+.jumbotron-home {
+  background-image: url(../images/bg-index.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+}
+/* line 38, _IDMstrap.scss */
+.jumbotron-home .panel h3, .jumbotron-home .panel .checkbox, .jumbotron-home .panel i {
+  text-shadow: none;
+  color: #000;
+}
+/* line 42, _IDMstrap.scss */
+.jumbotron-home .panel form {
+  margin-bottom: 0;
+}
+
+/* line 49, _IDMstrap.scss */
+.box-list {
+  border-top: 1px solid #ccc;
+}
+/* line 51, _IDMstrap.scss */
+.box-list a {
+  padding: 15px;
+  display: inherit;
+}
+
+/* line 57, _IDMstrap.scss */
+.fig-img {
+  /*margin-bottom: 24px;*/
+  /*position: relative;*/
+  border-radius: 6px;
+  -webkit-box-shadow: 0 0px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.15);
+  position: relative;
+  height: 225px;
+  /*margin-bottom: 30px;*/
+  overflow: hidden;
+}
+/* line 67, _IDMstrap.scss */
+.fig-img figcaption {
+  color: #fff;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: left;
+  padding: 30px;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+/* line 1, _type.scss */
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 7, _type.scss */
+.font72 {
+  font-size: 72px;
+  line-height: 1.1;
+}
+
+/* line 12, _type.scss */
+.font60 {
+  font-size: 60px;
+  line-height: 1.1;
+}
+
+/* line 16, _type.scss */
+.font48 {
+  font-size: 48px;
+  line-height: 1.1;
+}
+
+/* line 20, _type.scss */
+.font42 {
+  font-size: 42px;
+  line-height: 1.1;
+}
+
+/* line 24, _type.scss */
+.font36 {
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+/* line 28, _type.scss */
+.font32 {
+  font-size: 32px;
+  line-height: 1.3;
+}
+
+/* line 32, _type.scss */
+.font28 {
+  font-size: 28px;
+  line-height: 1.3;
+}
+
+/* line 36, _type.scss */
+.font26 {
+  font-size: 26px;
+  line-height: 1.3;
+}
+
+/* line 40, _type.scss */
+.font24 {
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+/* line 44, _type.scss */
+.font20 {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+/* line 48, _type.scss */
+.font18 {
+  font-size: 18px;
+}
+
+/* line 51, _type.scss */
+.font16 {
+  font-size: 16px;
+}
+
+/* line 54, _type.scss */
+.font15 {
+  font-size: 15px;
+}
+
+/* line 57, _type.scss */
+.font14 {
+  font-size: 14px;
+}
+
+/* line 60, _type.scss */
+.font13 {
+  font-size: 13px;
+}
+
+/* line 63, _type.scss */
+.font12 {
+  font-size: 12px;
+}
+
+/* line 66, _type.scss */
+.font11 {
+  font-size: 11px;
+}
+
+/* line 69, _type.scss */
+.font10 {
+  font-size: 10px;
+}
+
+/* line 72, _type.scss */
+.font9 {
+  font-size: 9px;
+}

@@ -1,0 +1,78 @@
+servicios:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Servicios
+    module:               service
+    prefix_path:          /service
+    column:               id
+    with_wildcard_routes: true
+
+noticias:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Noticias
+    module:               news
+    prefix_path:          /news
+    column:               id
+    with_wildcard_routes: true
+
+sf_guard_permission:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                sfGuardPermission
+    module:               sf_guard_permission
+    prefix_path:          /sf_guard_permission
+    column:               id
+    with_wildcard_routes: true
+
+sf_guard_group:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                sfGuardGroup
+    module:               sf_guard_group
+    prefix_path:          /sf_guard_group
+    column:               id
+    with_wildcard_routes: true
+
+sf_guard_user:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                sfGuardUser
+    module:               sf_guard_user
+    prefix_path:          /sf_guard_user
+    column:               id
+    with_wildcard_routes: true
+
+categorias:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Categorias
+    module:               category
+    prefix_path:          /category
+    column:               id
+    with_wildcard_routes: true
+
+botones:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Botones
+    module:               button
+    prefix_path:          /button
+    column:               id
+    with_wildcard_routes: true
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: default, action: index }
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+
+cambiar_tipo_login:
+  url: /change/login
+  param: { module: sf_guard_user, action: changeLogin }

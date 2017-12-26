@@ -1,0 +1,28 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+#sfGuardAuth - sobreescribo mis url por otras
+sf_guard_signin:
+  url:   /login
+  param: { module: sfGuardAuth, action: signin }
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+
+sf_guard_password:
+  url:   /recuperar-password
+  param: { module: sfGuardAuth, action: password }
+
+# default rules
+homepage:
+  url:   /
+  param: { module: home, action: index }
+
+agregar_favoritos:
+  #url: /botones/favoritos/agregar.:sf_format
+  url: /botones/favoritos
+  param: { module: home, action: agregarFavoritos }
+  #param: { module: home, action: agregarFavoritos }
+  #requisitos:
+    #sf_format: (?: html | js)
